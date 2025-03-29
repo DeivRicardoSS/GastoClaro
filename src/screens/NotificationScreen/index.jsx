@@ -1,9 +1,9 @@
 import { View, Text, SafeAreaView } from "react-native";
-import styles from "./styles";
-export default function HomeScreen() {
+//import styles from "./styles";
+export default function NotificationScreen() {
     return (
         <SafeAreaView>
-            <Text>HomeScreen</Text>
+            <Text>NotificationScreen</Text>
         </SafeAreaView>
     );
 }

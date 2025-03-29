@@ -1,9 +1,9 @@
 import { View, Text, SafeAreaView } from "react-native";
 import styles from "./styles";
-export default function HomeScreen() {
+export default function ProfileScreen() {
     return (
         <SafeAreaView>
-            <Text>HomeScreen</Text>
+            <Text>ProfileScreen</Text>
         </SafeAreaView>
     );
 }
