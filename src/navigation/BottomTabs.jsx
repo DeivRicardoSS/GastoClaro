@@ -32,9 +32,10 @@ export default function BottomTabs() {
             })
             }
         >
+            <Tab.Screen name="Profile" component={ProfileScreen} />
             <Tab.Screen name="Notifications" component={NotificationScreen} />
             <Tab.Screen name="Home" component={HomeScreen} />
-            <Tab.Screen name="Profile" component={ProfileScreen} />
+            
             
         </Tab.Navigator>
     );
